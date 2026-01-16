@@ -1,0 +1,32 @@
+[SIZE="6"][B]PTS Assistant[/B][/SIZE]
+
+Helps you to find things on PTS:
+- shows in what container you can find what thing;
+- can automatically retrieve them and all containers in between.
+
+Slash command `/ptsassistant` to show or hide the main window, type in search box to filter and right click to retrieve.
+
+[COLOR="Olive"][B]WIP![/B][/COLOR]
+It was created over one night, so a couple iterations needed to make it more stable. If you encounter any bug, please report. I would aslo be glad to receive suggestions!
+
+[COLOR="Olive"][B]Known issues[/B][/COLOR]
+- Can fail to retrieve items if some container in the middle of chain is absent. All further actions will fail.
+- Do not search over bank or over equipped items, which can lead to false results
+
+[COLOR="Olive"][B]Plans[/B][/COLOR]
+- Add API to retrieve items automatically (done) with events (wip)
+- ? Add more filters: container, type (set item, consumables, etc.)
+- ? Tooltips
+- ? Integrate with WW, SuperStar
+- ? Notifications if retrieval failed (currently fails silently), and some other events
+- ? "Missing item" sign in UI (if container got deleted, for example)
+- Endless looting
+- ? Better text search
+- ? Search by id
+- ? LibAsync
+- Mass extraction with extraction list (for manual and for API)
+- Search in bank
+- Close button
+- Automations to retrieve consumables automatically (soul gems, ink, etc.)
+- Hide loot window when looted automatically
+- ? Fix issue when loot window stays openened

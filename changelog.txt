@@ -1,0 +1,15 @@
+V.3
+- Logging with LibDebugLogger
+- UI reworked
+- Loot with double click
+- Tooltip with useful info
+- Column with short description
+- Search by itemId, multiword search (use space to separate words, for example 'balorg light infused head' or 'bal lig infu head' or '141624')
+- A little bit increased speed
+- Adapted for PerfectPixel
+
+V. 2
+- Debug chat messages disabled
+
+V. 1
+- Initial
