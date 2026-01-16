@@ -62,7 +62,7 @@ jobs:
       uses: m00nyONE/esoui-upload@v2
       with:
         api_key: ${{ secrets.ESOUI_API_KEY }}
-        addon_id: '4035'
+        addon_id: '4352'
         version: ${{ github.ref_name }}
         zip_file: /tmp/${{ steps.setup.outputs.archive_name }}
         description_file: 'description.txt'
