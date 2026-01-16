@@ -936,7 +936,7 @@ EVENT_MANAGER:RegisterForEvent(EVENT_NAMESPACE, EVENT_ADD_ON_LOADED, function(_,
     if addonName ~= 'PTSAssistant' then return end
     EVENT_MANAGER:UnregisterForEvent(EVENT_NAMESPACE, EVENT_ADD_ON_LOADED)
 
-    if GetWorldName() ~= 'PTS' then
-        addon:Initialize()
-    end
+    if GetWorldName() ~= 'PTS' then return end
+
+    addon:Initialize()
 end)

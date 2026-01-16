@@ -1,7 +1,7 @@
 ## Title: |cAFD3FFPTS Assistant|r
 ## Description: Helps to find things on PTS
 ## Author: |c7c42f2@impda|r
-## AddOnVersion: 4
+## AddOnVersion: 5
 ## APIVersion: 101049
 ## IsLibrary: false
 ## SavedVariables: PTSAssistantSV
